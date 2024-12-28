@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: "Roboto", "Arial", "sans-serif";
+    font-family: "Roboto", "sans-serif";
     background-color: #1F2937;
     color: white;
 }
@@ -14,6 +14,7 @@ body {
     margin-right: 50px;
 }
 
+/* Header Section */
 .header {
     display: flex;
     justify-content: space-between;
@@ -41,6 +42,7 @@ body {
     border-radius: 10px;
 }
 
+/* Main Content Section */
 .main-content {
     display: flex;
     justify-content: space-between;
@@ -89,7 +91,7 @@ button:hover {
     border-radius: 20px;
 }
 
-
+/* Fun Facts Section */
 .additional-info {
     padding: 50px 0;
     width: 100%;
@@ -119,6 +121,10 @@ button:hover {
     text-align: center;
 }
 
+.info-card:hover {
+    background-color: #E5E7EB;
+}
+
 .info-card img {
     max-width: 100%;
     border: 4px solid #3882F6;
@@ -131,4 +137,35 @@ button:hover {
     font-size: 18px;
     color: #656e79;
     margin-bottom: 20px;
+}
+
+/* Quote Section */
+.quote {
+    width: 100%;
+    background-color: #E5E7EB;
+    
+}
+
+.quote blockquote {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.quote blockquote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: center;
+}
+
+.quote blockquote footer {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: right;
+
 }
