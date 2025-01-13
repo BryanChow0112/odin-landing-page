@@ -1,6 +1,6 @@
  # Odin Neptune Wonders Landing Page
 
-This is a simple HTML and CSS landing page for a fictional website about Neptune, the eighth and most distant planet in our solar system. This project focuses on building fundamental HTML and CSS skills while learning about web design and layout techniques.
+This is a simple landing page for a fictional website about Neptune, the eighth and most distant planet in our solar system made using HTML and CSS. This project focuses on building fundamental HTML and CSS skills while learning about web design and layout techniques.
 
 
 ## Usage/Examples
